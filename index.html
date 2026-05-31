@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zeus Automotriz | Servicio · Piezas · Consultoría Automotriz</title>
+  <meta name="description" content="Zeus Automotriz — Servicio automotriz profesional, venta de piezas y refacciones, consultoría especializada para autos, camionetas y motos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:wght@300;400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ═══════════ NAVBAR ═══════════ -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <img src="images/logo.png" alt="Zeus Automotriz" class="logo-img">
+        <div class="logo-text">
+          <span class="logo-main">ZEUS</span>
+          <span class="logo-sub">AUTOMOTRIZ</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#piezas">Piezas</a></li>
+        <li><a href="#vehiculos">Vehículos</a></li>
+        <li><a href="#consultoria">Consultoría</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li>
+          <a href="https://wa.me/523221179633?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios" target="_blank" class="btn-nav-wa">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp
+          </a>
+        </li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════ HERO ═══════════ -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920&q=80"
+           alt="Zeus Automotriz" class="hero-photo" loading="eager">
+      <div class="hero-grid"></div>
+      <div class="hero-particles" id="particles"></div>
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal-up">
+        <span class="badge-dot"></span>
+        Taller Especializado · Servicio de Calidad Garantizada
+      </div>
+      <h1 class="hero-title reveal-up">
+        <span class="line1">ZEUS</span>
+        <span class="line2">AUTOMOTRIZ</span>
+      </h1>
+      <p class="hero-desc reveal-up">
+        Servicio profesional · Piezas originales · Consultoría experta<br>
+        <span class="hero-vehicles">Autos · Camionetas · Motos</span>
+      </p>
+      <div class="hero-ctas reveal-up">
+        <a href="#servicios" class="cta-card cta-servicio">
+          <div class="cta-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <span class="cta-label">SERVICIO</span>
+          <span class="cta-sub">Mantenimiento y reparación</span>
+        </a>
+        <a href="#piezas" class="cta-card cta-piezas">
+          <div class="cta-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93l-1.41 1.41M20 12h-2M17.66 17.66l-1.41-1.41M12 20v-2M6.34 17.66l1.41-1.41M4 12H2M6.34 6.34l1.41 1.41"/></svg>
+          </div>
+          <span class="cta-label">PIEZAS</span>
+          <span class="cta-sub">Refacciones originales</span>
+        </a>
+        <a href="#consultoria" class="cta-card cta-consultoria">
+          <div class="cta-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <span class="cta-label">CONSULTORÍA</span>
+          <span class="cta-sub">Asesoría especializada</span>
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Explorar</span>
+    </div>
+  </section>
+
+  <!-- ═══════════ STATS BAR ═══════════ -->
+  <section class="stats-bar">
+    <div class="stats-container">
+      <div class="stat-item">
+        <span class="stat-num" data-count="3000">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Clientes Atendidos</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-count="10">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Años de Experiencia</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-count="4000">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Piezas en Stock</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-count="98">0</span><span class="stat-plus">%</span>
+        <span class="stat-label">Satisfacción</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SERVICIOS ═══════════ -->
+  <section id="servicios" class="section-servicios">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Lo que hacemos</span>
+        <h2 class="section-title">NUESTROS <span class="text-blue">SERVICIOS</span></h2>
+        <p class="section-desc">Diagnóstico preciso, reparación de calidad y mantenimiento preventivo para mantener tu vehículo en óptimas condiciones.</p>
+      </div>
+      <div class="servicios-grid">
+        <div class="servicio-card reveal-up" data-delay="0">
+          <div class="servicio-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg>
+          </div>
+          <h3>Diagnóstico Computarizado</h3>
+          <p>Análisis completo con equipo de última generación. Detectamos cualquier falla antes de que se convierta en un problema mayor.</p>
+          <button class="btn-servicio" onclick="abrirAgenda('Diagnóstico Computarizado')">Agendar</button>
+        </div>
+        <div class="servicio-card reveal-up" data-delay="100">
+          <div class="servicio-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3>Mantenimiento Preventivo</h3>
+          <p>Cambio de aceite, filtros, bujías, frenos y más. Programa tu servicio y evita costosas reparaciones futuras.</p>
+          <button class="btn-servicio" onclick="abrirAgenda('Mantenimiento Preventivo')">Agendar</button>
+        </div>
+        <div class="servicio-card reveal-up" data-delay="200">
+          <div class="servicio-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3>Reparación de Motor</h3>
+          <p>Especialistas en motores de gasolina y diésel. Reconstrucción, ajuste y optimización para máximo rendimiento.</p>
+          <a href="https://wa.me/523221179633?text=Hola%2C%20necesito%20informaci%C3%B3n%20sobre%20reparaci%C3%B3n%20de%20motor" target="_blank" class="btn-servicio">Consultar</a>
+        </div>
+        <div class="servicio-card reveal-up" data-delay="300">
+          <div class="servicio-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Sistema de Frenos</h3>
+          <p>Revisión y cambio de pastillas, discos y tambores. Tu seguridad es nuestra prioridad número uno.</p>
+          <button class="btn-servicio" onclick="abrirAgenda('Sistema de Frenos')">Agendar</button>
+        </div>
+        <div class="servicio-card reveal-up" data-delay="400">
+          <div class="servicio-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3>Sistema Eléctrico</h3>
+          <p>Diagnóstico y reparación de instalaciones eléctricas, alternadores, baterías y sistemas electrónicos.</p>
+          <a href="https://wa.me/523221179633?text=Hola%2C%20tengo%20un%20problema%20el%C3%A9ctrico%20en%20mi%20veh%C3%ADculo" target="_blank" class="btn-servicio">Consultar</a>
+        </div>
+        <div class="servicio-card reveal-up" data-delay="500">
+          <div class="servicio-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+          </div>
+          <h3>Afinación y Tunning</h3>
+          <p>Optimización del rendimiento, ajuste de carburación, programación de ECU y mejoras de performance.</p>
+          <a href="https://wa.me/523221179633?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20afinaci%C3%B3n%20y%20tunning" target="_blank" class="btn-servicio">Consultar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ PIEZAS ═══════════ -->
+  <section id="piezas" class="section-piezas">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Refacciones</span>
+        <h2 class="section-title">PIEZAS Y <span class="text-yellow">REFACCIONES</span></h2>
+        <p class="section-desc">Contamos con más de 4,000 piezas en stock. Trabajamos con refacciones originales y de calidad certificada.</p>
+      </div>
+      <div class="piezas-content">
+        <div class="piezas-categories reveal-up">
+          <div class="pieza-cat active" data-cat="motor">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+            Motor
+          </div>
+          <div class="pieza-cat" data-cat="suspension">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg>
+            Suspensión
+          </div>
+          <div class="pieza-cat" data-cat="frenos">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Frenos
+          </div>
+          <div class="pieza-cat" data-cat="electrico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            Eléctrico
+          </div>
+          <div class="pieza-cat" data-cat="transmision">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="5" cy="12" r="3"/><circle cx="19" cy="5" r="3"/><circle cx="19" cy="19" r="3"/><path d="M8 12h9M17 6.7L8 11M17 17.3L8 13"/></svg>
+            Transmisión
+          </div>
+        </div>
+        <div class="piezas-items">
+          <div class="piezas-list" id="piezasList">
+            <div class="pieza-item active" data-cat="motor">
+              <div class="pieza-icon">🔩</div>
+              <div><strong>Pistones y Anillos</strong><p>Motor completo o por pieza</p></div>
+              <a href="https://wa.me/523221179633?text=Hola%2C%20busco%20pistones%20y%20anillos" target="_blank" class="pieza-btn">Cotizar</a>
+            </div>
+            <div class="pieza-item active" data-cat="motor">
+              <div class="pieza-icon">⚙️</div>
+              <div><strong>Filtros (aceite, aire, combustible)</strong><p>Todas las marcas</p></div>
+              <a href="https://wa.me/523221179633?text=Hola%2C%20necesito%20filtros" target="_blank" class="pieza-btn">Cotizar</a>
+            </div>
+            <div class="pieza-item active" data-cat="motor">
+              <div class="pieza-icon">🔧</div>
+              <div><strong>Bujías y Cables</strong><p>NGK, Bosch, Champion</p></div>
+              <a href="https://wa.me/523221179633?text=Hola%2C%20busco%20buj%C3%ADas" target="_blank" class="pieza-btn">Cotizar</a>
+            </div>
+            <div class="pieza-item" data-cat="suspension">
+              <div class="pieza-icon">🛞</div>
+              <div><strong>Amortiguadores</strong><p>Monroe, Gabriel, KYB</p></div>
+              <a href="https://wa.me/523221179633?text=Hola%2C%20busco%20amortiguadores" target="_blank" class="pieza-btn">Cotizar</a>
+            </div>
+            <div class="pieza-item" data-cat="suspension">
+              <div class="pieza-icon">🔧</div>
+              <div><strong>Rotulas y Terminales</strong><p>Originales y aftermarket</p></div>
+              <a href="https://wa.me/523221179633?text=Hola%2C%20busco%20r%C3%B3tulas" target="_blank" class="pieza-btn">Cotizar</a>
+            </div>
+            <div class="pieza-item" data-cat="frenos">
+              <div class="pieza-icon">⚠️</div>
+              <div><strong>Pastillas de Freno</strong><p>Para todos los modelos</p></div>
+              <a href="https://wa.me/523221179633?text=Hola%2C%20busco%20pastillas%20de%20freno" target="_blank" class="pieza-btn">Cotizar</a>
+            </div>
+            <div class="pieza-item" data-cat="frenos">
+              <div class="pieza-icon">💿</div>
+              <div><strong>Discos y Tambores</strong><p>Originales certificados</p></div>
+              <a href="https://wa.me/523221179633?text=Hola%2C%20busco%20discos%20de%20freno" target="_blank" class="pieza-btn">Cotizar</a>
+            </div>
+            <div class="pieza-item" data-cat="electrico">
+              <div class="pieza-icon">🔋</div>
+              <div><strong>Baterías y Alternadores</strong><p>Bosch, Optima, Varta</p></div>
+              <a href="https://wa.me/523221179633?text=Hola%2C%20busco%20bater%C3%ADa%20o%20alternador" target="_blank" class="pieza-btn">Cotizar</a>
+            </div>
+            <div class="pieza-item" data-cat="electrico">
+              <div class="pieza-icon">💡</div>
+              <div><strong>Sensores y Módulos</strong><p>OEM y compatibles</p></div>
+              <a href="https://wa.me/523221179633?text=Hola%2C%20busco%20sensores" target="_blank" class="pieza-btn">Cotizar</a>
+            </div>
+            <div class="pieza-item" data-cat="transmision">
+              <div class="pieza-icon">⚙️</div>
+              <div><strong>Embragues y Clutch</strong><p>Manual y automático</p></div>
+              <a href="https://wa.me/523221179633?text=Hola%2C%20busco%20embrague%20o%20clutch" target="_blank" class="pieza-btn">Cotizar</a>
+            </div>
+            <div class="pieza-item" data-cat="transmision">
+              <div class="pieza-icon">🔩</div>
+              <div><strong>Flechas y Semiejes</strong><p>Para todo tipo de vehículo</p></div>
+              <a href="https://wa.me/523221179633?text=Hola%2C%20busco%20flechas%20o%20semiejes" target="_blank" class="pieza-btn">Cotizar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="piezas-cta reveal-up">
+        <p>¿No encuentras lo que buscas? Contamos con acceso a proveedores nacionales e internacionales.</p>
+        <a href="https://wa.me/523221179633?text=Hola%2C%20busco%20una%20pieza%20espec%C3%ADfica%3A%20" target="_blank" class="btn-primary-yellow">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Solicitar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ VEHÍCULOS ═══════════ -->
+  <section id="vehiculos" class="section-vehiculos">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Especialidades</span>
+        <h2 class="section-title">VEHÍCULOS <span class="text-blue">QUE ATENDEMOS</span></h2>
+        <p class="section-desc">Contamos con técnicos especializados y herramienta específica para cada tipo de vehículo.</p>
+      </div>
+      <div class="vehiculos-grid">
+        <div class="vehiculo-card reveal-up" data-delay="0">
+          <div class="vehiculo-visual">
+            <div class="vehiculo-bg v-autos" style="background-image:url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=800&q=80')"></div>
+            <div class="vehiculo-emoji">🚗</div>
+          </div>
+          <div class="vehiculo-info">
+            <h3>Autos Particulares</h3>
+            <p>Sedanes, hatchbacks, SUVs y crossovers. Servicio completo para todas las marcas: Volkswagen, Nissan, Chevrolet, Toyota, Ford y más.</p>
+            <div class="vehiculo-tags">
+              <span>Sedan</span><span>SUV</span><span>Crossover</span><span>Hatchback</span>
+            </div>
+            <button class="btn-vehiculo" onclick="abrirAgenda('Servicio – Auto Particular')">Agendar Servicio</button>
+          </div>
+        </div>
+        <div class="vehiculo-card reveal-up" data-delay="150">
+          <div class="vehiculo-visual">
+            <div class="vehiculo-bg v-camionetas" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80')"></div>
+            <div class="vehiculo-emoji">🚙</div>
+          </div>
+          <div class="vehiculo-info">
+            <h3>Camionetas y Pick-up</h3>
+            <p>Especialistas en vehículos de trabajo: Ford F-150, RAM 1500, Toyota Hilux, Nissan NP300, Chevrolet Silverado y todas las demás.</p>
+            <div class="vehiculo-tags">
+              <span>Pick-up</span><span>4x4</span><span>Doble Cabina</span><span>Carga</span>
+            </div>
+            <button class="btn-vehiculo" onclick="abrirAgenda('Servicio – Camioneta / Pick-up')">Agendar Servicio</button>
+          </div>
+        </div>
+        <div class="vehiculo-card reveal-up" data-delay="300">
+          <div class="vehiculo-visual">
+            <div class="vehiculo-bg v-motos" style="background-image:url('https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800&q=80')"></div>
+            <div class="vehiculo-emoji">🏍️</div>
+          </div>
+          <div class="vehiculo-info">
+            <h3>Motocicletas</h3>
+            <p>Motos de calle, doble propósito, scooters y más. Mantenimiento, reparación y diagnóstico para todas las marcas y modelos.</p>
+            <div class="vehiculo-tags">
+              <span>Deportiva</span><span>Doble Propósito</span><span>Scooter</span><span>Naked</span>
+            </div>
+            <button class="btn-vehiculo" onclick="abrirAgenda('Servicio – Motocicleta')">Agendar Servicio</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ GALERÍA ═══════════ -->
+  <section class="section-galeria">
+    <div class="galeria-header reveal-up">
+      <span class="section-tag">Nuestro trabajo</span>
+      <h2 class="section-title">CALIDAD <span class="text-blue">EN CADA DETALLE</span></h2>
+    </div>
+    <div class="galeria-grid">
+      <div class="gal-item gal-tall reveal-up" data-delay="0">
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80"
+             alt="Auto deportivo" loading="lazy">
+        <div class="gal-overlay"><span>Autos de Alto Rendimiento</span></div>
+      </div>
+      <div class="gal-item reveal-up" data-delay="100">
+        <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=800&q=80"
+             alt="Diagnóstico automotriz" loading="lazy">
+        <div class="gal-overlay"><span>Diagnóstico Especializado</span></div>
+      </div>
+      <div class="gal-item reveal-up" data-delay="200">
+        <img src="https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=800&q=80"
+             alt="Frenos y llantas" loading="lazy">
+        <div class="gal-overlay"><span>Frenos y Suspensión</span></div>
+      </div>
+      <div class="gal-item gal-wide reveal-up" data-delay="150">
+        <img src="https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&w=1200&q=80"
+             alt="Servicio mecánico profesional" loading="lazy">
+        <div class="gal-overlay"><span>Servicio Profesional</span></div>
+      </div>
+      <div class="gal-item reveal-up" data-delay="300">
+        <img src="https://images.unsplash.com/photo-1616788494707-ec28f08d05a1?auto=format&fit=crop&w=800&q=80"
+             alt="Motor automotriz" loading="lazy">
+        <div class="gal-overlay"><span>Reparación de Motor</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ CONSULTORÍA ═══════════ -->
+  <section id="consultoria" class="section-consultoria">
+    <div class="section-container">
+      <div class="consultoria-inner">
+        <div class="consultoria-text reveal-up">
+          <span class="section-tag">Asesoría</span>
+          <h2 class="section-title">CONSULTORÍA <span class="text-yellow">AUTOMOTRIZ</span></h2>
+          <p>¿No sabes qué está fallando en tu vehículo? ¿Vas a comprar un auto usado y quieres revisarlo? Nuestros expertos te asesoran.</p>
+          <ul class="consultoria-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#0047AB" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Revisión pre-compra de vehículos usados
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#0047AB" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Diagnóstico remoto por WhatsApp o videollamada
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#0047AB" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Presupuesto y cotización sin compromiso
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#0047AB" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Asesoría en modificaciones y mejoras
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#0047AB" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Consulta sobre garantías y coberturas
+            </li>
+          </ul>
+          <a href="https://wa.me/523221179633?text=Hola%2C%20quiero%20una%20consultor%C3%ADa%20automotriz" target="_blank" class="btn-primary-blue">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Iniciar Consultoría
+          </a>
+        </div>
+        <div class="consultoria-card-wrap reveal-up">
+          <div class="consultoria-card">
+            <div class="cc-header">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#0047AB" stroke-width="2" width="28" height="28"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              <span>Consulta Express</span>
+            </div>
+            <div class="cc-steps">
+              <div class="cc-step">
+                <div class="cc-num">01</div>
+                <div>
+                  <strong>Describe el problema</strong>
+                  <p>Cuéntanos qué falla o qué quieres saber</p>
+                </div>
+              </div>
+              <div class="cc-step">
+                <div class="cc-num">02</div>
+                <div>
+                  <strong>Recibe diagnóstico inicial</strong>
+                  <p>Te respondemos en menos de 1 hora</p>
+                </div>
+              </div>
+              <div class="cc-step">
+                <div class="cc-num">03</div>
+                <div>
+                  <strong>Solución personalizada</strong>
+                  <p>Cotización exacta y plan de trabajo</p>
+                </div>
+              </div>
+            </div>
+            <a href="https://wa.me/523221179633?text=Hola%2C%20quiero%20una%20consulta%20express" target="_blank" class="cc-btn">Consulta Gratis →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ NOSOTROS ═══════════ -->
+  <section id="nosotros" class="section-nosotros">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">¿Quiénes somos?</span>
+        <h2 class="section-title">SOBRE <span class="text-blue">NOSOTROS</span></h2>
+      </div>
+      <div class="nosotros-grid">
+        <div class="nosotros-text reveal-up">
+          <p class="nosotros-intro">Zeus Automotriz nació con la misión de brindar servicio automotriz de la más alta calidad, con la potencia y confiabilidad del dios del rayo.</p>
+          <p>Con más de 10 años en el mercado automotriz, hemos atendido a miles de clientes en la región, ganándonos su confianza con trabajo bien hecho y precios justos.</p>
+          <p>Nuestro equipo de técnicos certificados está en constante capacitación para mantenerse al día con las últimas tecnologías automotrices.</p>
+          <div class="nosotros-valores">
+            <div class="valor">
+              <div class="valor-icon">⚡</div>
+              <strong>Potencia</strong>
+              <p>Servicio rápido y al más alto nivel</p>
+            </div>
+            <div class="valor">
+              <div class="valor-icon">🤝</div>
+              <strong>Confianza</strong>
+              <p>Diagnóstico real, presupuesto claro</p>
+            </div>
+            <div class="valor">
+              <div class="valor-icon">🏆</div>
+              <strong>Calidad</strong>
+              <p>Solo piezas certificadas y originales</p>
+            </div>
+          </div>
+        </div>
+        <div class="nosotros-visual reveal-up">
+          <div class="taller-card">
+            <img src="images/taller.png"
+                 alt="Taller Zeus Automotriz" class="taller-foto" loading="lazy">
+          </div>
+          <div class="taller-badge">
+            <span class="tb-num">10+</span>
+            <span class="tb-text">años de trayectoria</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ CONTACTO ═══════════ -->
+  <section id="contacto" class="section-contacto">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Hablemos</span>
+        <h2 class="section-title">CONTÁCTANOS <span class="text-yellow">HOY</span></h2>
+      </div>
+      <div class="contacto-grid">
+        <div class="contacto-info reveal-up">
+          <div class="contact-card cc-wa">
+            <div class="cc-icon">
+              <svg viewBox="0 0 24 24" fill="#25D366" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <div class="cc-content">
+              <strong>WhatsApp</strong>
+              <p>Respuesta en menos de 1 hora</p>
+              <a href="https://wa.me/523221179633?text=Hola%20Zeus%20Automotriz%2C%20necesito%20informaci%C3%B3n" target="_blank">+52 322 117 9633</a>
+            </div>
+          </div>
+          <div class="contact-card cc-horario">
+            <div class="cc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#FFD700" stroke-width="2" width="28" height="28"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="cc-content">
+              <strong>Horario</strong>
+              <p>Lunes – Viernes: 8:00 AM – 6:00 PM</p>
+              <p>Sábado: 8:00 AM – 2:00 PM</p>
+            </div>
+          </div>
+          <div class="contact-card cc-ubicacion">
+            <div class="cc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#0047AB" stroke-width="2" width="28" height="28"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="cc-content">
+              <strong>Ubicación</strong>
+              <p>Visítanos en nuestro taller</p>
+              <a href="https://maps.google.com" target="_blank">Ver en Google Maps →</a>
+            </div>
+          </div>
+          <div class="contact-ctas">
+            <a href="https://wa.me/523221179633?text=Hola%2C%20quiero%20agendar%20un%20servicio" target="_blank" class="btn-primary-blue">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Agendar por WhatsApp
+            </a>
+            <button class="btn-secondary-outline" onclick="document.getElementById('chatToggle').click()">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              Abrir Chat
+            </button>
+          </div>
+        </div>
+        <div class="contacto-form-wrap reveal-up">
+          <form class="contacto-form" id="contactForm">
+            <h3>Envíanos un mensaje</h3>
+            <div class="form-group">
+              <label>Nombre completo</label>
+              <input type="text" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Teléfono</label>
+                <input type="tel" placeholder="Tu teléfono">
+              </div>
+              <div class="form-group">
+                <label>Vehículo</label>
+                <select>
+                  <option value="">Tipo de vehículo</option>
+                  <option>Auto particular</option>
+                  <option>Camioneta / Pick-up</option>
+                  <option>Motocicleta</option>
+                  <option>Otro</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Servicio requerido</label>
+              <select>
+                <option value="">Selecciona un servicio</option>
+                <option>Diagnóstico</option>
+                <option>Mantenimiento preventivo</option>
+                <option>Reparación de motor</option>
+                <option>Frenos</option>
+                <option>Sistema eléctrico</option>
+                <option>Piezas y refacciones</option>
+                <option>Consultoría</option>
+                <option>Otro</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Mensaje</label>
+              <textarea placeholder="Describe brevemente el problema o lo que necesitas..." rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn-form-submit">
+              Enviar por WhatsApp
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Zeus Automotriz" class="footer-logo-img">
+          <div>
+            <span class="fl-main">ZEUS AUTOMOTRIZ</span>
+            <span class="fl-sub">Taller Especializado</span>
+          </div>
+        </div>
+        <p>Servicio profesional, piezas originales y consultoría experta para mantener tu vehículo en perfectas condiciones.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Servicios</h4>
+        <a href="#servicios">Mantenimiento</a>
+        <a href="#servicios">Reparación</a>
+        <a href="#piezas">Refacciones</a>
+        <a href="#consultoria">Consultoría</a>
+      </div>
+      <div class="footer-links">
+        <h4>Vehículos</h4>
+        <a href="#vehiculos">Autos Particulares</a>
+        <a href="#vehiculos">Camionetas</a>
+        <a href="#vehiculos">Motocicletas</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contacto</h4>
+        <a href="https://wa.me/523221179633" target="_blank">
+          <svg viewBox="0 0 24 24" fill="#25D366" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          +52 322 117 9633
+        </a>
+        <p>Lun – Vie: 8:00 AM – 6:00 PM</p>
+        <p>Sáb: 8:00 AM – 2:00 PM</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Zeus Automotriz. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ═══════════ FLOATING WHATSAPP ═══════════ -->
+  <a href="https://wa.me/523221179633?text=Hola%20Zeus%20Automotriz%2C%20necesito%20ayuda" target="_blank" class="float-wa" id="floatWa" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="float-wa-pulse"></span>
+  </a>
+
+  <!-- ═══════════ CHATBOT ═══════════ -->
+  <div class="chatbot-wrap" id="chatbotWrap">
+    <button class="chat-toggle" id="chatToggle" aria-label="Abrir chat">
+      <svg class="chat-icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      <svg class="chat-icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      <span class="chat-notif">1</span>
+    </button>
+    <div class="chatbot-window" id="chatbotWindow">
+      <div class="chatbot-header">
+        <div class="chatbot-avatar">
+          <img src="images/logo.png" alt="Zeus" class="chat-avatar-img">
+        </div>
+        <div class="chatbot-info">
+          <strong>Zeus Assistant</strong>
+          <span class="bot-status">
+            <span class="online-dot"></span> En línea ahora
+          </span>
+        </div>
+        <button class="chatbot-minimize" id="chatMinimize">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+      </div>
+      <div class="chatbot-messages" id="chatMessages"></div>
+      <div class="chatbot-quick-replies" id="quickReplies"></div>
+      <div class="chatbot-input-area">
+        <input type="text" id="chatInput" placeholder="Escribe tu pregunta..." autocomplete="off">
+        <button id="chatSend" aria-label="Enviar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════ MODAL AGENDA ═══════════ -->
+  <div class="agenda-overlay" id="agendaOverlay" role="dialog" aria-modal="true" aria-label="Agendar cita">
+    <div class="agenda-modal" id="agendaModal">
+      <div class="agenda-header">
+        <div class="agenda-header-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </div>
+        <div>
+          <h2 class="agenda-title">Agendar Cita</h2>
+          <p class="agenda-subtitle" id="agendaSubtitle">Selecciona fecha y hora</p>
+        </div>
+        <button class="agenda-close" id="agendaClose" aria-label="Cerrar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="agenda-steps">
+        <div class="agenda-step active" data-step="1"><span>1</span> Servicio</div>
+        <div class="agenda-step-line"></div>
+        <div class="agenda-step" data-step="2"><span>2</span> Fecha</div>
+        <div class="agenda-step-line"></div>
+        <div class="agenda-step" data-step="3"><span>3</span> Hora</div>
+        <div class="agenda-step-line"></div>
+        <div class="agenda-step" data-step="4"><span>4</span> Confirmar</div>
+      </div>
+      <div class="agenda-body" id="step1">
+        <p class="step-label">¿Qué servicio necesitas?</p>
+        <div class="servicio-selector" id="servicioSelector">
+          <button class="servicio-opt" data-servicio="Diagnóstico Computarizado">🔍 Diagnóstico Computarizado</button>
+          <button class="servicio-opt" data-servicio="Mantenimiento Preventivo">🛢️ Mantenimiento Preventivo</button>
+          <button class="servicio-opt" data-servicio="Reparación de Motor">⚙️ Reparación de Motor</button>
+          <button class="servicio-opt" data-servicio="Sistema de Frenos">🛑 Sistema de Frenos</button>
+          <button class="servicio-opt" data-servicio="Sistema Eléctrico">⚡ Sistema Eléctrico</button>
+          <button class="servicio-opt" data-servicio="Afinación y Tunning">🏎️ Afinación y Tunning</button>
+          <button class="servicio-opt" data-servicio="Servicio – Auto Particular">🚗 Auto Particular</button>
+          <button class="servicio-opt" data-servicio="Servicio – Camioneta / Pick-up">🚙 Camioneta / Pick-up</button>
+          <button class="servicio-opt" data-servicio="Servicio – Motocicleta">🏍️ Motocicleta</button>
+          <button class="servicio-opt" data-servicio="Consultoría Automotriz">💬 Consultoría Automotriz</button>
+        </div>
+        <button class="agenda-next" id="step1Next" disabled>Siguiente →</button>
+      </div>
+      <div class="agenda-body hidden" id="step2">
+        <p class="step-label">Selecciona una fecha disponible</p>
+        <div class="cal-nav">
+          <button class="cal-nav-btn" id="calPrev">‹</button>
+          <span class="cal-month-label" id="calMonthLabel"></span>
+          <button class="cal-nav-btn" id="calNext">›</button>
+        </div>
+        <div class="cal-grid">
+          <div class="cal-dow">Lu</div><div class="cal-dow">Ma</div>
+          <div class="cal-dow">Mi</div><div class="cal-dow">Ju</div>
+          <div class="cal-dow">Vi</div><div class="cal-dow">Sá</div>
+          <div class="cal-dow cal-dow-closed">Do</div>
+          <div class="cal-days" id="calDays"></div>
+        </div>
+        <p class="cal-legend"><span class="leg-dot leg-open"></span>Disponible &nbsp; <span class="leg-dot leg-closed"></span>No disponible</p>
+        <div class="agenda-nav-row">
+          <button class="agenda-back" id="step2Back">← Atrás</button>
+          <button class="agenda-next" id="step2Next" disabled>Siguiente →</button>
+        </div>
+      </div>
+      <div class="agenda-body hidden" id="step3">
+        <p class="step-label">Selecciona un horario</p>
+        <p class="step-date-selected" id="stepDateLabel"></p>
+        <div class="time-slots" id="timeSlots"></div>
+        <div class="agenda-nav-row">
+          <button class="agenda-back" id="step3Back">← Atrás</button>
+          <button class="agenda-next" id="step3Next" disabled>Siguiente →</button>
+        </div>
+      </div>
+      <div class="agenda-body hidden" id="step4">
+        <p class="step-label">Completa tus datos</p>
+        <div class="agenda-summary" id="agendaSummary"></div>
+        <div class="agenda-form">
+          <div class="af-group">
+            <label>Tu nombre *</label>
+            <input type="text" id="agendaNombre" placeholder="Nombre completo" required>
+          </div>
+          <div class="af-group">
+            <label>Tu teléfono *</label>
+            <input type="tel" id="agendaTelefono" placeholder="Ej: 3221234567" required>
+          </div>
+          <div class="af-group">
+            <label>Notas adicionales (opcional)</label>
+            <textarea id="agendaNotas" placeholder="Modelo del vehículo, descripción del problema..." rows="2"></textarea>
+          </div>
+        </div>
+        <div class="agenda-confirm-btns">
+          <button class="agenda-back" id="step4Back">← Atrás</button>
+          <button class="btn-confirm-wa" id="btnConfirmarWA">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Confirmar por WhatsApp
+          </button>
+        </div>
+        <button class="btn-gcal" id="btnGcal">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z" fill="#4285F4"/></svg>
+          Agregar a Google Calendar
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
